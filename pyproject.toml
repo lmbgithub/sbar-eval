@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sbar-eval"
+version = "0.1.0"
+description = "Structure clinical handover transcripts into SBAR and score their completeness"
+readme = "README.md"
+authors = [{ name = "Luis Manuel Barrios", email = "lmb.office@gmail.com" }]
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+keywords = ["sbar", "clinical-nlp", "handover", "asr", "evaluation", "healthcare"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+sbar-eval = "sbar_eval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

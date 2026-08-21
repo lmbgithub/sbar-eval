@@ -1,0 +1,6 @@
+{"id": "r-001", "situation": "Bed 4, chest pain since 06:00", "background": "Hypertension, penicillin allergy", "assessment": "BP 130/80, sats 97% on air", "recommendation": "Repeat ECG in one hour, chase troponin"}
+{"id": "r-002", "situation": "Bed 12, shortness of breath", "background": "COPD, home salbutamol", "assessment": "Sats 88% on room air", "recommendation": "Hourly obs, escalate below 85%"}
+{"id": "r-003", "situation": "Bay 2, fall at home", "background": "Atrial fibrillation, on apixaban", "assessment": "GCS 15, pain score 6 left hip", "recommendation": "N/A"}
+{"id": "r-004", "situation": "Bed 7, abdominal pain", "background": "No significant history", "assessment": "Temp 38.2, HR 110", "recommendation": null}
+{"id": "r-005", "situation": "Bed 9, confusion", "background": "Dementia, previous stroke", "assessment": "Obs normal, disoriented", "recommendation": "Close observation, falls risk"}
+{"id": "r-006", "situation": "Bed 1, post-op day 2", "background": "Previously fit and well", "assessment": "Wound clean, pain score 2", "recommendation": "Continue analgesia, surgical review"}
